@@ -1,4 +1,4 @@
-package com.test.jobportal.service;
+package com.test.jobportal.dao;
 
 import com.test.jobportal.pojo.Login;
 import com.test.jobportal.pojo.User;

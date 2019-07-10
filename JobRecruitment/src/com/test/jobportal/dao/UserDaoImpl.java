@@ -1,4 +1,4 @@
-package com.test.jobportal.service;
+package com.test.jobportal.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

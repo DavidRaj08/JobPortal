@@ -2,6 +2,7 @@ package com.test.jobportal.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.test.jobportal.dao.UserDao;
 import com.test.jobportal.pojo.Login;
 import com.test.jobportal.pojo.User;
 

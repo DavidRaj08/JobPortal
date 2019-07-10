@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.ModelMap;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -49,7 +49,7 @@ public class JobController {
 	
 	
 	@RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
-	public String submit(@RequestParam("file") MultipartFile file, ModelMap modelMap) {
+	public String submit(@RequestParam("file") MultipartFile file, Model modelMap) {
 	    modelMap.addAttribute("file", file);
 	    return "fileUploadView";
 	}
