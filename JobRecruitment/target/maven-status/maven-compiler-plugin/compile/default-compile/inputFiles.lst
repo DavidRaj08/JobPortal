@@ -2,7 +2,7 @@ C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\pojo\User.java
 C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\LoginController.java
 C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\service\UserService.java
 C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\JobController.java
-C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\service\UserDao.java
 C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\pojo\Login.java
 C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\service\UserServiceImpl.java
-C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\service\UserDaoImpl.java
+C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\dao\UserDao.java
+C:\Users\dsamband\job\JobRecruitment\src\com\test\jobportal\dao\UserDaoImpl.java

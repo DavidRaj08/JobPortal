@@ -4,13 +4,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.test.jobportal.pojo.Login;
@@ -48,9 +45,9 @@ public class JobController {
 	}
 	
 	
-	@RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
+	/*@RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
 	public String submit(@RequestParam("file") MultipartFile file, Model modelMap) {
 	    modelMap.addAttribute("file", file);
 	    return "fileUploadView";
-	}
+	}*/
 }

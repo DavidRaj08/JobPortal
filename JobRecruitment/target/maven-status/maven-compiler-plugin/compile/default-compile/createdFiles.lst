@@ -1,0 +1,9 @@
+com\test\jobportal\dao\UserMapper.class
+com\test\jobportal\JobController.class
+com\test\jobportal\service\UserServiceImpl.class
+com\test\jobportal\dao\UserDao.class
+com\test\jobportal\dao\UserDaoImpl.class
+com\test\jobportal\service\UserService.class
+com\test\jobportal\LoginController.class
+com\test\jobportal\pojo\User.class
+com\test\jobportal\pojo\Login.class
